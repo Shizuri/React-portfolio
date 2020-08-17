@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import './ContactMe.css'
 
 function ContactMe() {
+	useEffect(() => {
+        // Update the document title
+        document.title = `Zdravko Mavkov - Contect me`
+    }, [])
 
 	return (
 		<div className='certifications'>

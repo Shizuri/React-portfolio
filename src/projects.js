@@ -1,7 +1,11 @@
-import React from 'react'
-// import './projects.css'
+import React, { useEffect } from 'react'
+// import './Projects.css'
 
 function Projects() {
+	useEffect(() => {
+		// Update the document title
+		document.title = `Zdravko Mavkov - Projects`
+	}, [])
 
 	return (
 		<div className='aboutMe'>
