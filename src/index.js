@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
+import './normalize.css'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { ContextProvider } from './context'
-import './normalize.css'
 
 ReactDOM.render(
 	<React.StrictMode>

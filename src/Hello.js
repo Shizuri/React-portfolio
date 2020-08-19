@@ -8,7 +8,7 @@ function Hello() {
     }, [])
 
     return (
-        <div className='hello'>
+        <div className='Hello'>
             Hello Component
         </div>
     )

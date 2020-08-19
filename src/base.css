@@ -1,0 +1,10 @@
+:root {
+    --color-dark: darkblue;
+    --color-light: white;
+    --color-primary: rebeccapurple;
+}
+
+.lite {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
