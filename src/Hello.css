@@ -1,0 +1,15 @@
+.Hello {
+    margin: 0 auto;
+}
+
+.Hello-image {
+    width: 400px;
+}
+
+.filler {
+    width: 500px;
+    height: 500px;
+    background: indigo;
+    border: 5px solid green;
+    margin: 10px;
+}

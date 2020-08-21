@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-// import './Hello.css'
+import zmImage from './images/ZM-Portfolio.jpg'
+import './Hello.css'
 
 function Hello() {
     useEffect(() => {
@@ -9,7 +10,19 @@ function Hello() {
 
     return (
         <div className='Hello'>
-            Hello Component
+            <div className='Hello-container'>
+                <div className='filler'></div>
+                <div className='filler'></div>
+                <div className='filler'></div>
+                <div className='filler'></div>
+                <div className='filler'></div>
+                <img className='Hello-image' src={zmImage} alt='tew'/>
+                <div className='Hello-words'>
+                    <div>Hi, I am</div>
+                    <div>Zdravko Mavkov</div>
+                    <div>FRONT-END DEV</div>
+                </div>
+            </div>
         </div>
     )
 }

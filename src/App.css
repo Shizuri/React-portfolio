@@ -1,27 +1,47 @@
 .App {
-  text-align: center;
-  height: 100vh;
-  background-color: var(--color-dark);
-  color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  /* background-color: var(--color-dark);
+  color: var(--color-light); */
 }
 
 .App-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  border: 1px solid coral;
+  position: sticky;
+  top: 0; /* Required for the stickiness */
+  height: 100px;
+
+}
+
+.App-logo-link {
+
+}
+
+.App-logo {
+  width: 80px;
+}
+
+.App-nav {
+  margin-right: 50px;
 }
 
 .App-nav-link {
-  color: var(--color-light);
+  /* color: var(--color-light); */
   text-decoration: none;
+  /* color: #005EB6; */
+  color: #44A0FF;
 }
 
-.App-nav-active{
-  border: 2px solid green;
+.App-nav-link:not(:last-child) {
+  margin-right: 50px;
 }
 
-/* might not need this */
-/* .dark{
-  background-color: burlywood;
-} */
+.App-nav-active {
+  background-color: purple;
+}
