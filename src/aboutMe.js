@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import './aboutMe.css'
 
 function AboutMe() {
@@ -25,7 +25,7 @@ function AboutMe() {
 				company Sourcico I gained knowledge and experience in the JavaEE world. Later I
 				received training as a full stack developer in the company Sorsix. Now my goal is solely
 				on finding a job as a front end developer with a focus on the React JavaScript library.</p>
-				<Link to='/projects'>The best way to find out what I do is by checking out my projects.</Link>
+				{/* <Link to='/projects'>The best way to find out what I do is by checking out my projects.</Link> */}
 			</div>
 		</div>
 	)

@@ -3,11 +3,13 @@
 }
 
 .Hello-image {
-    width: 400px;
+    width: 80vw;
+    max-width: 300px;
 }
 
 .filler {
-    width: 500px;
+    width: 80vw;
+    max-width: 300px;
     height: 500px;
     background: indigo;
     border: 5px solid green;

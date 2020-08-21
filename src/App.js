@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useContext } from 'react'
 // import { useContext } from 'react'
 import './App.css'
-// import { Context } from './context'
+import { Context } from './context'
 import { Link, NavLink, Route, Switch } from 'react-router-dom'
 
 import AboutMe from './AboutMe'
@@ -14,7 +14,8 @@ import logo from './images/Logo-round2.png'
 // import useClassNameCreator from './hooks/useClassNameCreator'
 
 const App = props => {
-	// const { setTheme } = useContext(Context)
+	const { menuIsActive, setMenuIsActive } = useContext(Context)
+	console.log('menuIsActive: ', menuIsActive)
 
 	// Change the value of the theme in the Context
 	// const changeTheme = () => {
@@ -24,10 +25,14 @@ const App = props => {
 	// Return the class name with our without 'light' attached to the class
 	// const classNameCreator = useClassNameCreator
 
+	const handleMenu = () => {
+		setMenuIsActive(prevMenuIsActive => prevMenuIsActive === 'none' ? 'block' : 'none')
+	}
+
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<Link to='/' className='App-logo-link'><img className='App-logo' src={logo} alt='logo'/></Link>
+				<Link to='/' className='App-logo-link'><img className='App-logo' src={logo} alt='logo' /></Link>
 				{/* <p>Theme: {theme}</p> */}
 				<nav className='App-nav'>
 					<NavLink exact to='/about-me' activeClassName='App-nav-active' className='App-nav-link'>About Me</NavLink>
@@ -36,7 +41,9 @@ const App = props => {
 					<NavLink exact to='/contact-me' activeClassName='App-nav-active' className='App-nav-link'>Contact Me</NavLink>
 				</nav>
 				{/* <button onClick={changeTheme}>Change theme</button> */}
+				<div className='App-menu-button' onClick={handleMenu}>M</div>
 			</header>
+			<div className='App-mobile-menu' style={{display: menuIsActive}}>ADD MOBILE MENU ITEM HERE</div>
 
 			<Switch>
 				<Route exact path='/'>
