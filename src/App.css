@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@
 
 .App-nav-link {
   text-decoration: none;
-  color: #44A0FF;
+  color: var(--color-dark);
   opacity: 0.85;
   transition: all 0.3s;
 }
@@ -60,7 +60,7 @@
   cursor: pointer;
   margin-right: 15px;
   font-size: 2.5rem;
-  color: #44A0FF;
+  color: var(--color-dark);
   opacity: 0.85;
   transition: all 0.3s;
 }
@@ -80,20 +80,20 @@
 
 .App-nav-link-mobile {
   text-decoration: none;
-  color: #44A0FF;
+  color: var(--color-dark);
   font-size: 1.1rem;
   padding: 6px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .App-nav {
     margin: 0px;
   }
   .App-header {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   .App {
-    width: 90%;
+    width: 80%;
   }
   .App-logo {
     width: 90px;
@@ -108,7 +108,7 @@
     font-size: 1.5rem;
   }
   .App {
-    width: 90%;
+    width: 80%;
   }
   .App-logo {
     width: 80px;
@@ -126,7 +126,7 @@
     margin: 0;
   }
   .App {
-    width: 100%;
+    width: 95%;
   }
   .App-logo {
     margin-top: 5px;

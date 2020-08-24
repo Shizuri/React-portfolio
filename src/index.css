@@ -1,6 +1,6 @@
 :root {
-  --color-dark: darkblue;
-  --color-light: aliceblue;
+  --color-dark: #44A0FF;
+  --color-light: rgba(255, 255, 255, 0.92);
   --color-accent: rebeccapurple;
 }
 
@@ -32,4 +32,10 @@ code {
 .light {
   background-color: var(--color-light);
   color: var(--color-dark);
+}
+
+.surround {
+  background-color: rgba(0, 0, 30, 1);
+  box-shadow: 10px 0px 10px rgba(0, 0, 30, 1), 0px 10px 10px rgba(0, 0, 30, 1), -10px 0px 10px rgba(0, 0, 30, 1), 0px -10px 10px rgba(0, 0, 30, 1);
+  border-radius: 20px;
 }

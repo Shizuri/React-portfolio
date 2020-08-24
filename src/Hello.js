@@ -11,16 +11,11 @@ function Hello() {
     return (
         <div className='Hello'>
             <div className='Hello-container'>
-                <div className='filler'></div>
-                <div className='filler'></div>
-                <div className='filler'></div>
-                <div className='filler'></div>
-                <div className='filler'></div>
                 <img className='Hello-image' src={zmImage} alt='tew'/>
-                <div className='Hello-words'>
-                    <div>Hi, I am</div>
-                    <div>Zdravko Mavkov</div>
-                    <div>FRONT-END DEV</div>
+                <div className='Hello-text'>
+                    <div className='Hello-text-hi'>Hi, I am</div>
+                    <div className='Hello-text-name'>Zdravko Mavkov</div>
+                    <div className='Hello-text-profession'>FRONT-END DEV</div>
                 </div>
             </div>
         </div>

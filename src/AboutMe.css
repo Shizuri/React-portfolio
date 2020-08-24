@@ -1,0 +1,15 @@
+.About-me {
+    color: var(--color-light);
+    margin-top: 20px;
+}
+
+.About-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.About-me-h2 {
+    font-size: 2rem;
+}
