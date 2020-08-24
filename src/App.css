@@ -10,18 +10,17 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: sticky;
   top: 0;
   /* Required for the stickiness */
-  height: 100px;
+  height: 120px;
   background-color: black;
-  border: 1px solid #44A0FF;
 }
 
 .App-logo {
-  margin-top: 10px;
-  width: 80px;
+  margin-top: 20px;
+  width: 100px;
   transition: all 0.3s;
   opacity: 0.85;
   border-radius: 50%;
@@ -39,9 +38,8 @@
 .App-nav-link {
   text-decoration: none;
   color: #44A0FF;
-  transition: all 0.3s;
   opacity: 0.85;
-  border-radius: 20px;
+  transition: all 0.3s;
 }
 
 .App-nav-link:hover {
@@ -59,21 +57,90 @@
 
 .App-menu-button {
   display: none;
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 2.5rem;
+  color: #44A0FF;
+  opacity: 0.85;
+  transition: all 0.3s;
 }
 
-.App-mobile-menu {
-  position: fixed;
-  top: 100px;
+.App-menu-button:hover {
+  opacity: 1;
+}
+
+.App-mobile-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: all 1.5s;
+  pointer-events: none;
+}
+
+.App-nav-link-mobile {
+  text-decoration: none;
+  color: #44A0FF;
+  font-size: 1.1rem;
+  padding: 6px;
+}
+
+@media (max-width: 1200px) {
+  .App-nav {
+    margin: 0px;
+  }
+  .App-header {
+    font-size: 1.8rem;
+  }
+  .App {
+    width: 90%;
+  }
+  .App-logo {
+    width: 90px;
+  }
 }
 
 @media (max-width: 1000px) {
   .App-nav {
-    display: none;
+    margin: 0px;
+  }
+  .App-header {
+    font-size: 1.5rem;
   }
   .App {
-    width: 100%;
+    width: 90%;
+  }
+  .App-logo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .App-nav {
+    display: none;
   }
   .App-menu-button {
     display: block;
   }
+  .App-header {
+    margin: 0;
+  }
+  .App {
+    width: 100%;
+  }
+  .App-logo {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .App-mobile-nav {
+    display: none;
+  }
+}
+
+.App-mobile-menu-on {
+  opacity: 1;
+  pointer-events: auto;
 }
