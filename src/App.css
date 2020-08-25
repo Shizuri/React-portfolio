@@ -16,6 +16,7 @@
   /* Required for the stickiness */
   height: 120px;
   background-color: black;
+  z-index: 10;
 }
 
 .App-logo {

@@ -56,4 +56,7 @@
     .Hello-text {
         font-size: 2.5rem;
     }
+    .Hello {
+        margin-top: 20px;
+    }
 }

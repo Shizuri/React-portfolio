@@ -1,6 +1,6 @@
 .About-me {
     color: var(--color-light);
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .About-me-container {
@@ -12,4 +12,16 @@
 
 .About-me-h2 {
     font-size: 2rem;
+}
+
+.About-me-projects-link {
+    text-decoration: none;
+    color: var(--color-dark);
+    opacity: 0.85;
+}
+
+@media (max-width: 600px) {
+    .About-me {
+        margin-top: 0px;
+    }
 }
