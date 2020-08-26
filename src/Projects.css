@@ -1,0 +1,28 @@
+.Projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-light)
+}
+
+.Projects-h2 {
+    font-size: 2rem;
+}
+
+.Projects-project-box {
+    border: 1px solid violet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.Projects-project-name {
+    font-size: 1.1rem;
+}
+
+.Project-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

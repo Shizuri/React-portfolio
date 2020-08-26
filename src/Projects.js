@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import './Projects.css'
+import './Projects.css'
 
 function Projects() {
 	useEffect(() => {
@@ -8,34 +8,41 @@ function Projects() {
 	}, [])
 
 	return (
-		<div className='projects'>
-			<div className='projects-container'>
-				<h2>React projects</h2>
-				<div className='projects-project-box'>
-					<div className='projects-project-name'>Book Journal</div>
-					<div className='projects-project-site'>
-						<img alt='Book Journal site'/>
-						<div>Web site</div>
+		<div className='Projects'>
+			<div className='Projects-container'>
+
+				<h2 className='Projects-h2'>React projects</h2>
+				
+				<div className='Projects-project-box'>
+					<div className='Projects-project-name'>Book Journal</div>
+					<div className='Project-container'>
+						<div className='Projects-project-site'>
+							<img alt='Book Journal site' />
+							<div>Web site</div>
+						</div>
+						<div className='Projects-project-code'>
+							<img alt='Book Journal code repository' />
+							<div>Code repository</div>
+						</div>
 					</div>
-					<div className='projects-project-code'>
-						<img alt='Book Journal code repository'/>
-						<div>Code repository</div>
-					</div>
-					<p className='projects-project-description'>Description</p>
+					<div className='Projects-project-description'>Description</div>
 				</div>
 
-				<div className='projects-project-box'>
-					<div className='projects-project-name'>Book Journal</div>
-					<div className='projects-project-site'>
-						<img alt='Book Journal site'/>
-						<div>Web site</div>
+				<div className='Projects-project-box'>
+					<div className='Projects-project-name'>Book Journal</div>
+					<div className='Project-container'>
+						<div className='Projects-project-site'>
+							<img alt='Book Journal site' />
+							<div>Web site</div>
+						</div>
+						<div className='Projects-project-code'>
+							<img alt='Book Journal code repository' />
+							<div>Code repository</div>
+						</div>
 					</div>
-					<div className='projects-project-code'>
-						<img alt='Book Journal code repository'/>
-						<div>Code repository</div>
-					</div>
-					<p className='projects-project-description'>Description</p>
+					<div className='Projects-project-description'>Description</div>
 				</div>
+
 			</div>
 		</div>
 	)
