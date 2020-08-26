@@ -8,38 +8,39 @@
     text-align: center;
 }
 
-.fa-envelope, .fa-linkedin, .fa-github {
-    color: var(--color-dark);
-    font-size: 5rem;
-}
-
 .Contact-me-greeting {
     font-size: 1.5rem;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 .Contact-me-links {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid rebeccapurple; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 500px;
     max-width: 500px;
 }
 
 .Contact-me-link {
     transition: all 0.3s;
-    opacity: 0.85;
-}
-
-.Contact-me-link:hover {
-    text-shadow: 10px 0px 10px darkblue, 0px 10px 10px darkblue, -10px 0px 10px darkblue, 0px -10px 10px darkblue;
-    opacity: 1;
+    opacity: 0.80;
+    color: var(--color-dark);
+    font-size: 5rem;
     cursor: pointer;
 }
 
-.Contact-me-eposta {
+.Contact-me-link:hover {
+    text-shadow: 1px 0px 20px rgb(0, 0, 130), 0px 1px 20px rgb(0, 0, 130), -1px 0px 20px rgb(0, 0, 130), 0px -1px 20px rgb(0, 0, 130);
+    opacity: 0.95;
+}
+
+.Contact-me-eposta-image {
     margin-top: 30px;
+    opacity: 0.85;
+}
+
+.Contact-me-eposta-image:hover+.Contact-me-spam-protection-notifiaction {
+    transition: all 2.2s;
     opacity: 0.85;
 }
 
@@ -49,6 +50,14 @@
     width: 300px;
 }
 
+.Contact-me-spam-protection-notifiaction {
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0;
+    pointer-events: none;
+}
+
 @media (max-width: 600px) {
     .Contact-me-links {
         flex-direction: column;
@@ -56,7 +65,7 @@
         width: auto;
         margin-top: 0px;
     }
-    .Contact-me-eposta {
+    .Contact-me-eposta-image {
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -68,6 +77,6 @@
         margin: 0;
     }
     .Contact-me-container {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 }

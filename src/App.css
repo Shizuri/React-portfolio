@@ -12,8 +12,7 @@
   align-items: center;
   font-size: 2rem;
   position: sticky;
-  top: 0;
-  /* Required for the stickiness */
+  top: 0; /* Required for the stickiness */
   height: 120px;
   background-color: black;
   z-index: 10;
@@ -79,7 +78,7 @@
   pointer-events: none;
 }
 
-.App-nav-link-mobile {
+.App-mobile-nav-link {
   text-decoration: none;
   color: var(--color-dark);
   font-size: 1.1rem;

@@ -36,10 +36,10 @@ const App = props => {
 					<NavLink exact to='/contact-me' activeClassName='App-nav-active' className='App-nav-link'>Contact Me</NavLink>
 				</nav>
 				<nav className={classNameCreator('App-mobile-nav')}>
-					<NavLink exact to='/projects' activeClassName='App-nav-active' className='App-nav-link-mobile' onClick={turnOffMenu}>Projects</NavLink>
-					<NavLink exact to='/about-me' activeClassName='App-nav-active' className='App-nav-link-mobile' onClick={turnOffMenu}>About Me</NavLink>
-					<NavLink exact to='/certifications' activeClassName='App-nav-active' className='App-nav-link-mobile' onClick={turnOffMenu}>Certifications</NavLink>
-					<NavLink exact to='/contact-me' activeClassName='App-nav-active' className='App-nav-link-mobile' onClick={turnOffMenu}>Contact Me</NavLink>
+					<NavLink exact to='/projects' activeClassName='App-nav-active' className='App-mobile-nav-link' onClick={turnOffMenu}>Projects</NavLink>
+					<NavLink exact to='/about-me' activeClassName='App-nav-active' className='App-mobile-nav-link' onClick={turnOffMenu}>About Me</NavLink>
+					<NavLink exact to='/certifications' activeClassName='App-nav-active' className='App-mobile-nav-link' onClick={turnOffMenu}>Certifications</NavLink>
+					<NavLink exact to='/contact-me' activeClassName='App-nav-active' className='App-mobile-nav-link' onClick={turnOffMenu}>Contact Me</NavLink>
 				</nav>
 				<div className='App-menu-button' onClick={toggleMenu}>&#9776;</div>
 			</header>
