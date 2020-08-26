@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 // import './Certifications.css'
 
-function Certifications() {
+const Certifications = props => {
 	useEffect(() => {
         // Update the document title
         document.title = `Zdravko Mavkov - Certifications`

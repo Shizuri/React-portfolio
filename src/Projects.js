@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react'
 import './Projects.css'
+import Project from './Project'
 
-function Projects() {
+import bookJournalImage from './images/project-images/BookJournal.png'
+
+const Projects = props => {
 	useEffect(() => {
 		// Update the document title
 		document.title = `Zdravko Mavkov - Projects`
@@ -10,39 +13,38 @@ function Projects() {
 	return (
 		<div className='Projects'>
 			<div className='Projects-container'>
-
 				<h2 className='Projects-h2'>React projects</h2>
-				
-				<div className='Projects-project-box'>
-					<div className='Projects-project-name'>Book Journal</div>
-					<div className='Project-container'>
-						<div className='Projects-project-site'>
-							<img alt='Book Journal site' />
-							<div>Web site</div>
-						</div>
-						<div className='Projects-project-code'>
-							<img alt='Book Journal code repository' />
-							<div>Code repository</div>
-						</div>
-					</div>
-					<div className='Projects-project-description'>Description</div>
-				</div>
+				<Project
+					name='Book Journal'
+					projectImage={bookJournalImage}
+					projectWebSite='https://book-journal-zm.netlify.app/'
+					projectCodeRepo='https://github.com/Shizuri/React-book-journal'
+					description={<div>
+						The Book Journal application is a tool for cataloging your books. All of the data is provided by the public Google Books API. Once you find your books you can store them in your Journal. There you can note the start and finish date, rate the book and review your experience.
+					<br />
+					<br />
+					This React single page application was developed by using Functional Components, Hooks, the Context API and React Router.
+					<br />
+					<br />
+					All data is kept in localStorage.
+					</div>}
+				/>
 
-				<div className='Projects-project-box'>
-					<div className='Projects-project-name'>Book Journal</div>
-					<div className='Project-container'>
-						<div className='Projects-project-site'>
-							<img alt='Book Journal site' />
-							<div>Web site</div>
-						</div>
-						<div className='Projects-project-code'>
-							<img alt='Book Journal code repository' />
-							<div>Code repository</div>
-						</div>
-					</div>
-					<div className='Projects-project-description'>Description</div>
-				</div>
+				<Project
+					name='Redux Book Journal'
+					projectImage={bookJournalImage}
+					projectWebSite='https://book-journal-zm.netlify.app/'
+					projectCodeRepo='https://github.com/Shizuri/React-book-journal'
+					description='Descrtiption Blah blah blah description'
+				/>
 
+				<Project
+					name='WHAT?!'
+					projectImage={bookJournalImage}
+					projectWebSite='https://book-journal-zm.netlify.app/'
+					projectCodeRepo='https://github.com/Shizuri/React-book-journal'
+					description='Descrtiption Blah blah blah description'
+				/>
 			</div>
 		</div>
 	)

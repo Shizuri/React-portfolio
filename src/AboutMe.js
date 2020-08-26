@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './AboutMe.css'
 
-function AboutMe() {
+const AboutMe = props => {
 	useEffect(() => {
 		// Update the document title
 		document.title = `Zdravko Mavkov - About me`

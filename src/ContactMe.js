@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './ContactMe.css'
-import eposta from './images/e-posta18.png'
+import epostaImage from './images/e-posta18.png'
 
-function ContactMe() {
+const ContactMe = props => {
 	useEffect(() => {
 		// Update the document title
 		document.title = `Zdravko Mavkov - Contect me`
@@ -18,7 +18,7 @@ function ContactMe() {
 		<div className='Contact-me'>
 			<div className='Contact-me-container'>
 				<div className='Contact-me-greeting'>Feel free to contact me about any additional information at:</div>
-				{mailShown !== true ? <div className='Contact-me-spam-protection'></div> : <img src={eposta} alt='' className='Contact-me-eposta-image' />}
+				{mailShown !== true ? <div className='Contact-me-spam-protection'></div> : <img src={epostaImage} alt='' className='Contact-me-eposta-image' />}
 				<div className='Contact-me-spam-protection-notifiaction'>The email is an image to prevent spam.<br />Apologies for the inconvenience.</div>
 				<div className='Contact-me-links'>
 					<i className='Contact-me-link fas fa-envelope fa-5x' onClick={handleShowMail}></i>
