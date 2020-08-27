@@ -6,9 +6,10 @@
     align-items: center;
     color: var(--color-light);
     width: 100%;
-    height: 330px;
+    height: 335px;
     margin-bottom: 150px;
     text-align: center;
+    /* border: 1px solid saddlebrown; */
 }
 
 /* Left box from here */
@@ -25,6 +26,7 @@
 }
 
 .Project-site-link {
+    height: 100%;
     text-decoration: none;
 }
 
@@ -38,7 +40,7 @@
 }
 
 .Project-name {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--color-blue);
     text-decoration: none;
 }
@@ -56,13 +58,15 @@
 }
 
 .Project-description {
+    font-size: 1.1rem;
     margin-left: 20px;
     margin-top: 20px;
+    font-weight: 300;
 }
 
 .Project-code-box {
     opacity: 0.85;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: var(--color-blue);
     transition: all 0.3s;
 }

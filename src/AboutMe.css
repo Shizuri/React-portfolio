@@ -16,7 +16,7 @@
 
 .About-me-projects-link {
     text-decoration: none;
-    color: var(--color-dark);
+    color: var(--color-blue);
     opacity: 0.85;
     transition: all 0.3s;
 }
