@@ -37,7 +37,7 @@
 
 .App-nav-link {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-blue);
   opacity: 0.85;
   transition: all 0.3s;
 }
@@ -60,7 +60,7 @@
   cursor: pointer;
   margin-right: 15px;
   font-size: 2.5rem;
-  color: var(--color-dark);
+  color: var(--color-blue);
   opacity: 0.85;
   transition: all 0.3s;
 }
@@ -80,7 +80,7 @@
 
 .App-mobile-nav-link {
   text-decoration: none;
-  color: var(--color-dark);
+  color: var(--color-blue);
   font-size: 1.1rem;
   padding: 6px;
 }

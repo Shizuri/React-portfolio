@@ -34,7 +34,7 @@
 
 .Hello-text-profession {
     font-weight: 300;
-    color: var(--color-dark);
+    color: var(--color-blue);
     opacity: 0.85;
     text-shadow: 10px 0px 10px darkblue, 0px 10px 10px darkblue, -10px 0px 10px darkblue, 0px -10px 10px darkblue
 }

@@ -24,7 +24,7 @@
 .Contact-me-link {
     transition: all 0.3s;
     opacity: 0.80;
-    color: var(--color-dark);
+    color: var(--color-blue);
     font-size: 5rem;
     cursor: pointer;
 }
