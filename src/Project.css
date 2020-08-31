@@ -87,7 +87,7 @@
 @media (max-width: 700px) {
     .Project {
         flex-direction: column;
-        margin-bottom: 100px;
+        margin-bottom: 130px;
         height: auto;
     }
     .Project-site-image{
