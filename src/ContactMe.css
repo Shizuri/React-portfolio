@@ -40,7 +40,7 @@
     opacity: 0.85;
 }
 
-.Contact-me-eposta-image:hover+.Contact-me-spam-protection-notifiaction {
+.Contact-me-eposta-image:hover+.Contact-me-spam-protection-notification {
     transition: all 2.2s;
     opacity: 0.85;
 }
@@ -51,7 +51,7 @@
     width: 300px;
 }
 
-.Contact-me-spam-protection-notifiaction {
+.Contact-me-spam-protection-notification {
     height: 50px;
     font-size: 1rem;
     font-weight: 300;

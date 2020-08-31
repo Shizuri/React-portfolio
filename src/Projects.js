@@ -28,11 +28,11 @@ const Projects = props => {
 					projectImage={bookJournalImage}
 					projectWebSite='https://book-journal-zm.netlify.app/'
 					projectCodeRepoLink='https://github.com/Shizuri/React-book-journal'
-					projectDescription={<div>
+					projectDescription={<>
 						<em>Technology:</em> This React single page application (SPA) was developed by using <strong>Functional Components, Hooks, the Context API and React Router</strong>. All data is provided by the public Google Books API. User data is kept in localStorage.
 						<br /><br />
 						<em>Description:</em> The Book Journal application is a tool for cataloging your books. Once you find your books you can store them in your Journal. There you can note the start and finish date, rate the book and review your experience.
-					</div>}
+					</>}
 					codeTaskDescription='Code Repository'
 					codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
 				/>
@@ -42,11 +42,11 @@ const Projects = props => {
 					projectImage={reduxBookJournalImage}
 					projectWebSite='https://book-journal-redux-zm.netlify.app/book-browser'
 					projectCodeRepoLink='https://github.com/Shizuri/React-redux-book-journal'
-					projectDescription={<div>
+					projectDescription={<>
 						<em>Technology:</em> Unlike the previous project, this one uses older React technology to achieve the same result. <strong>Class Components, Redux and React Router</strong> were used to completely rewrite all of the application logic. All data is provided by the public Google Books API. User data is kept in localStorage.
 						<br /><br />
 						<em>Description:</em> The Book Journal application is a tool for cataloging your books. Once you find your books you can store them in your Journal. There you can note the start and finish date, rate the book, and review your experience.
-					</div>}
+					</>}
 					codeTaskDescription='Code Repository'
 					codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
 				/>
@@ -56,11 +56,11 @@ const Projects = props => {
 					projectImage={logo}
 					projectWebSite='https://zdravkomavkov.netlify.app/'
 					projectCodeRepoLink='https://github.com/Shizuri/React-portfolio'
-					projectDescription={<div>
+					projectDescription={<>
 						<em>Technology:</em> I developed my personal portfolio page as a React project with client side routing (SPA). Modern React technologies <strong>Functional Components, Hooks, the Context API and React Router</strong> were used in its development.
 						<br /><br />
 						<em>Description:</em> This is my personal portfolio page, the very site that you are looking at. I put a lot of time and effort into its design and every pixel was created, placed and styled by me. I create all of my sites to be responsive so make sure to also check out the site on your phone.
-					</div>}
+					</>}
 					codeTaskDescription='Code Repository'
 					codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
 				/>
@@ -73,11 +73,11 @@ const Projects = props => {
 					projectImage={drRobertLustigTributePageImage}
 					projectWebSite='https://codepen.io/shizuri/pen/rNNXqzL'
 					projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page'
-					projectDescription={<div>
-						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the cration of this project.
+					projectDescription={<>
+						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
 						<br /><br />
 						<em>Description:</em> This FCC project requires the creation of a <strong>Tribute page</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
-					</div>}
+					</>}
 					codeTaskDescription='Free Code Camp task'
 					codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
 				/>
@@ -87,11 +87,11 @@ const Projects = props => {
 					projectImage={surveyFormImage}
 					projectWebSite='https://codepen.io/shizuri/pen/VwYaeWr'
 					projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form'
-					projectDescription={<div>
-						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the cration of this project.
+					projectDescription={<>
+						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
 						<br /><br />
 						<em>Description:</em> This FCC project requires the creation of a <strong>Survey Form</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
-					</div>}
+					</>}
 					codeTaskDescription='Free Code Camp task'
 					codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
 				/>
@@ -101,11 +101,11 @@ const Projects = props => {
 					projectImage={productLandingPageImage}
 					projectWebSite='https://codepen.io/shizuri/pen/GRgLrjX'
 					projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page'
-					projectDescription={<div>
-						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the cration of this project.
+					projectDescription={<>
+						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
 						<br /><br />
 						<em>Description:</em> This FCC project requires the creation of a <strong>Product Landing Page</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
-					</div>}
+					</>}
 					codeTaskDescription='Free Code Camp task'
 					codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
 				/>
@@ -115,11 +115,11 @@ const Projects = props => {
 					projectImage={technicalDocumentationPageImage}
 					projectWebSite='https://codepen.io/shizuri/pen/VweeONv'
 					projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page'
-					projectDescription={<div>
-						<em>Technology:</em> Pure <strong>HTML, CSS and JavaScript</strong> was used in the cration of this project.
+					projectDescription={<>
+						<em>Technology:</em> Pure <strong>HTML, CSS and JavaScript</strong> was used in the creation of this project.
 						<br /><br />
 						<em>Description:</em> This FCC project requires the creation of a <strong>Technical Documentation Page</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
-					</div>}
+					</>}
 					codeTaskDescription='Free Code Camp task'
 					codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
 				/>
@@ -129,11 +129,11 @@ const Projects = props => {
 					projectImage={fCCPersonalPortfolioImage}
 					projectWebSite='https://codepen.io/shizuri/pen/yLeaLgK'
 					projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage'
-					projectDescription={<div>
-						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the cration of this project.
+					projectDescription={<>
+						<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
 						<br /><br />
 						<em>Description:</em> This FCC project requires the creation of a <strong>Personal Portfolio</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
-					</div>}
+					</>}
 					codeTaskDescription='Free Code Camp task'
 					codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
 				/>

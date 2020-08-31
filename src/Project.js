@@ -7,7 +7,7 @@ const Project = props => {
 
     return (
         <div className='Project'>
-            <a  className='Project-site-link' href={projectWebSite} target='_blank' rel='noopener noreferrer'>
+            <a className='Project-site-link' href={projectWebSite} target='_blank' rel='noopener noreferrer'>
                 <div className='Project-left-box'>
                     <img className='Project-site-image' src={projectImage} alt={`${name} site`} />
                     <div className='Project-name'>{name}</div>
