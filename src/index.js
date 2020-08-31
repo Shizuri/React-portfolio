@@ -7,11 +7,14 @@ import * as serviceWorker from './serviceWorker'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { ContextProvider } from './context'
 
+import ScrollToTop from './ScrollToTop'
+
 ReactDOM.render(
 	<React.StrictMode>
 		<ContextProvider>
 			<Router>
 				<App />
+				<ScrollToTop />
 			</Router>
 		</ContextProvider>
 	</React.StrictMode>,
