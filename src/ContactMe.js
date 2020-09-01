@@ -22,7 +22,7 @@ const ContactMe = props => {
 				<div className='Contact-me-spam-protection-notification'>The email is an image to prevent spam.<br />Apologies for the inconvenience.</div>
 				<div className='Contact-me-links'>
 					<i className='Contact-me-link fas fa-envelope fa-5x' onClick={handleShowMail}></i>
-					<a href='https://www.linkedin.com/in/zdravko-mavkov-a9b9b7179/' target='_blank' rel='noopener noreferrer'><i className='Contact-me-link fab fa-linkedin fa-5x'></i></a>
+					<a href='https://www.linkedin.com/in/zdravko-mavkov/' target='_blank' rel='noopener noreferrer'><i className='Contact-me-link fab fa-linkedin fa-5x'></i></a>
 					<a href='https://github.com/Shizuri' target='_blank' rel='noopener noreferrer'><i className='Contact-me-link fab fa-github fa-5x'></i></a>
 
 				</div>
