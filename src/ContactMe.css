@@ -6,6 +6,10 @@
     align-items: center;
     font-size: 1.1rem;
     text-align: center;
+    width: 70%;
+    position: absolute;
+    top: 120px;
+    left: 15vw;
 }
 
 .Contact-me-greeting {
@@ -58,7 +62,7 @@
     pointer-events: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 630px) {
     .Contact-me-links {
         flex-direction: column;
         height: 300px;
@@ -78,5 +82,20 @@
     }
     .Contact-me {
         margin-top: 30px;
+    }
+}
+
+/* Transitions needed because of the absolute position of the page */
+@media (max-width: 1000px) {
+    .Contact-me {
+        left: 10vw;
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Contact-me {
+        left: 2.5vw;
+        width: 95%;
     }
 }

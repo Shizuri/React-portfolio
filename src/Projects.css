@@ -3,8 +3,11 @@
     flex-direction: column;
     align-items: center;
     color: var(--color-light);
-    width: 100%;
     text-align: center;
+    width: 70%;
+    position: absolute;
+    top: 120px;
+    left: 15vw;
 }
 
 .Projects-h2 {
@@ -15,4 +18,19 @@
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 50px;
+}
+
+/* Transitions needed because of the absolute position of the page */
+@media (max-width: 1000px) {
+    .Projects {
+        left: 10vw;
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Projects {
+        left: 2.5vw;
+        width: 95%;
+    }
 }

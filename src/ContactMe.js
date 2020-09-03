@@ -15,7 +15,7 @@ const ContactMe = props => {
 	}, [])
 	
 	return (
-		<div className='Contact-me'>
+		<div className='Contact-me page'>
 			<div className='Contact-me-greeting'>Feel free to contact me about any additional information at:</div>
 			{mailShown !== true ? <div className='Contact-me-spam-protection-blank'></div> : <img src={epostaImage} alt='' className='Contact-me-eposta-image' />}
 			<div className='Contact-me-spam-protection-notification'>The email is an image to prevent spam.<br />Apologies for the inconvenience.</div>

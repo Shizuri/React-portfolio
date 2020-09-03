@@ -10,6 +10,8 @@ import ContactMe from './ContactMe'
 
 import logo from './images/Logo-round2.png'
 
+import { CSSTransition, TransitionGroup, } from 'react-transition-group'
+
 const App = props => {
 	// Holds the menu open/closed state
 	const [mobileMenuIsActive, setMobileMenuIsActive] = useState(false)
@@ -33,7 +35,7 @@ const App = props => {
 	return (
 		<div className='App'>
 			<header className='App-header'>
-				<Link to='/' className='App-logo-link'><img className='App-logo' src={logo} alt='logo' onClick={turnOffMenu}/></Link>
+				<Link to='/' className='App-logo-link'><img className='App-logo' src={logo} alt='logo' onClick={turnOffMenu} /></Link>
 				<nav className='App-nav'>
 					<NavLink exact to='/projects' activeClassName='App-nav-active' className='App-nav-link'>Projects</NavLink>
 					<NavLink exact to='/about-me' activeClassName='App-nav-active' className='App-nav-link'>About Me</NavLink>
@@ -48,8 +50,35 @@ const App = props => {
 				</nav>
 				<div className='App-menu-button' onClick={toggleMenu}>&#9776;</div>
 			</header>
+			<Route render={({ location }) => (
+				<TransitionGroup className='transition-group' >
+					<CSSTransition
+						key={location.key}
+						timeout={2100}
+						classNames='fade'
+					>
+						<Switch location={location}>
+							<Route exact path='/'>
+								<Hello />
+							</Route>
+							<Route exact path='/about-me'>
+								<AboutMe />
+							</Route>
+							<Route exact path='/projects'>
+								<Projects />
+							</Route>
+							<Route exact path='/certifications'>
+								<Certifications />
+							</Route>
+							<Route exact path='/contact-me'>
+								<ContactMe />
+							</Route>
+						</Switch>
+					</CSSTransition>
+				</TransitionGroup>
+			)} />
 
-			<Switch>
+			{/* <Switch>
 				<Route exact path='/'>
 					<Hello />
 				</Route>
@@ -65,7 +94,7 @@ const App = props => {
 				<Route exact path='/contact-me'>
 					<ContactMe />
 				</Route>
-			</Switch>
+			</Switch> */}
 		</div>
 	)
 }

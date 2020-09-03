@@ -1,7 +1,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -11,9 +11,11 @@
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
-  position: sticky;
+  position: fixed;
   /* Required for the stickiness */
   top: 0;
+  left: 15vw;
+  width: 70%;
   height: 120px;
   background-color: black;
   z-index: 10;
@@ -29,10 +31,6 @@
 
 .App-logo:hover {
   opacity: 1;
-}
-
-.App-nav {
-  margin-right: 50px;
 }
 
 .App-nav-link {
@@ -73,7 +71,7 @@
   flex-direction: column;
   align-items: center;
   opacity: 0;
-  transition: all 1.5s;
+  transition: all 1400ms;
   pointer-events: none;
   margin-top: 20px;
   background-color: black;
@@ -92,14 +90,31 @@
   pointer-events: auto;
 }
 
+/* Transition animation from here */
+
+.fade-appear, .fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-appear-active, .fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 700ms linear 700ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 700ms linear;
+}
+
 @media (max-width: 1400px) {
-  .App-nav {
-    margin: 0px;
-  }
   .App-header {
     font-size: 1.9rem;
-  }
-  .App {
+    left: 10vw;
     width: 80%;
   }
   .App-logo {
@@ -108,14 +123,10 @@
 }
 
 @media (max-width: 1000px) {
-  .App-nav {
-    margin: 0px;
-  }
   .App-header {
     font-size: 1.5rem;
-  }
-  .App {
-    width: 80%;
+    left: 2.5vw;
+    width: 95%;
   }
   .App-logo {
     width: 80px;
@@ -128,12 +139,6 @@
   }
   .App-menu-button {
     display: block;
-  }
-  .App-header {
-    margin: 0;
-  }
-  .App {
-    width: 95%;
   }
   .App-logo {
     margin-top: 5px;

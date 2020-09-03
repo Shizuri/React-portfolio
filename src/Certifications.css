@@ -3,10 +3,29 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    width: 70%;
+    position: absolute;
+    top: 120px;
+    left: 15vw;
 }
 
 @media (max-width: 700px) {
     .Certifications {
         margin-top: 30px;
+    }
+}
+
+/* Transitions needed because of the absolute position of the page */
+@media (max-width: 1000px) {
+    .Certifications {
+        left: 10vw;
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .Certifications {
+        left: 2.5vw;
+        width: 95%;
     }
 }
