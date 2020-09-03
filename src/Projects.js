@@ -4,7 +4,7 @@ import Project from './Project'
 
 import bookJournalImage from './images/project-images/BookJournal.png'
 import reduxBookJournalImage from './images/project-images/ReduxBookJournal.png'
-import logo from './images/Logo-round2.png'
+import portfolioLogo from './images/project-images/Portfolio-logo.png'
 import drRobertLustigTributePageImage from './images/project-images/DrRobertLustigTributePage.png'
 import surveyFormImage from './images/project-images/SurveyForm.png'
 import productLandingPageImage from './images/project-images/ProductLandingPage.png'
@@ -52,7 +52,7 @@ const Projects = props => {
 
 			<Project
 				name='Personal Portfolio'
-				projectImage={logo}
+				projectImage={portfolioLogo}
 				projectWebSite='https://zdravkomavkov.netlify.app/'
 				projectCodeRepoLink='https://github.com/Shizuri/React-portfolio'
 				projectDescription={<>
@@ -70,7 +70,7 @@ const Projects = props => {
 			<Project
 				name='Tribute Page'
 				projectImage={drRobertLustigTributePageImage}
-				projectWebSite='https://codepen.io/shizuri/pen/rNNXqzL'
+				projectWebSite='https://codepen.io/shizuri/full/rNNXqzL'
 				projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page'
 				projectDescription={<>
 					<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
@@ -84,7 +84,7 @@ const Projects = props => {
 			<Project
 				name='Survey Form'
 				projectImage={surveyFormImage}
-				projectWebSite='https://codepen.io/shizuri/pen/VwYaeWr'
+				projectWebSite='https://codepen.io/shizuri/full/VwYaeWr'
 				projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form'
 				projectDescription={<>
 					<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
@@ -98,7 +98,7 @@ const Projects = props => {
 			<Project
 				name='Product Landing Page'
 				projectImage={productLandingPageImage}
-				projectWebSite='https://codepen.io/shizuri/pen/GRgLrjX'
+				projectWebSite='https://codepen.io/shizuri/full/GRgLrjX'
 				projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page'
 				projectDescription={<>
 					<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
@@ -112,7 +112,7 @@ const Projects = props => {
 			<Project
 				name='Technical Documentation'
 				projectImage={technicalDocumentationPageImage}
-				projectWebSite='https://codepen.io/shizuri/pen/VweeONv'
+				projectWebSite='https://codepen.io/shizuri/full/VweeONv'
 				projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page'
 				projectDescription={<>
 					<em>Technology:</em> Pure <strong>HTML, CSS and JavaScript</strong> was used in the creation of this project.
@@ -126,7 +126,7 @@ const Projects = props => {
 			<Project
 				name='FCC Personal Portfolio'
 				projectImage={fCCPersonalPortfolioImage}
-				projectWebSite='https://codepen.io/shizuri/pen/yLeaLgK'
+				projectWebSite='https://codepen.io/shizuri/full/yLeaLgK'
 				projectCodeRepoLink='https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage'
 				projectDescription={<>
 					<em>Technology:</em> Pure <strong>HTML and CSS</strong> was used in the creation of this project.
