@@ -11,16 +11,21 @@ import ContactMe from './ContactMe'
 import logo from './images/Logo-round2.png'
 
 const App = props => {
+	// Holds the menu open/closed state
 	const [mobileMenuIsActive, setMobileMenuIsActive] = useState(false)
 
+	// Simple function to toggle the menu state
 	const toggleMenu = () => {
 		setMobileMenuIsActive(prevMobileMenuIsActive => prevMobileMenuIsActive === true ? false : true)
 	}
 
+	// Used just for the Logo since it's part of the navigation
 	const turnOffMenu = () => {
 		setMobileMenuIsActive(false)
 	}
 
+	// Function that appends the class that turns on the mobile navigation
+	// This method was chosen so that the "come out of the darkness" effect can be achieved
 	const classNameCreator = name => {
 		return mobileMenuIsActive === true ? name += ' App-mobile-menu-on' : name
 	}

@@ -19,7 +19,7 @@ const Projects = props => {
 
 	return (
 		<div className='Projects'>
-			<div className='Projects-container'>
+			{/* <div className='Projects-container'> */}
 				<h2 className='Projects-h2'>React projects</h2>
 				<h3 className='Projects-h3'>Responsive React projects, designed and developed by me.</h3>
 				{/* React Projects from here */}
@@ -137,7 +137,7 @@ const Projects = props => {
 					codeTaskDescription='Free Code Camp task'
 					codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
 				/>
-			</div>
+			{/* </div> */}
 		</div>
 	)
 }

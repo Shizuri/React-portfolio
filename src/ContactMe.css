@@ -1,4 +1,4 @@
-.Contact-me-container {
+.Contact-me {
     margin-top: 50px;
     color: var(--color-light);
     display: flex;
@@ -17,7 +17,6 @@
 .Contact-me-links {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 50px; */
     width: 500px;
     max-width: 500px;
 }
@@ -45,7 +44,7 @@
     opacity: 0.85;
 }
 
-.Contact-me-spam-protection {
+.Contact-me-spam-protection-blank {
     margin-top: 30px;
     height: 50px;
     width: 300px;
@@ -70,14 +69,14 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .Contact-me-spam-protection {
+    .Contact-me-spam-protection-blank {
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .Contact-me-greeting {
         margin: 0;
     }
-    .Contact-me-container {
+    .Contact-me {
         margin-top: 30px;
     }
 }

@@ -9,7 +9,6 @@
     height: 335px;
     margin-bottom: 150px;
     text-align: center;
-    /* border: 1px solid saddlebrown; */
 }
 
 /* Left box from here */
@@ -18,7 +17,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid palegreen; */
     height: 100%;
     justify-content: space-between;
     opacity: 0.85;
@@ -54,7 +52,6 @@
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    /* border: 1px solid royalblue; */
 }
 
 .Project-description {
@@ -90,7 +87,7 @@
         margin-bottom: 130px;
         height: auto;
     }
-    .Project-site-image{
+    .Project-site-image {
         margin-bottom: 10px;
     }
     .Project-description {

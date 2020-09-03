@@ -3,7 +3,6 @@ import './Project.css'
 
 const Project = props => {
     const { name, projectImage, projectWebSite, projectCodeRepoLink, projectDescription, codeTaskDescription, codeIcon } = props
-    // console.log('props: ', props)
 
     return (
         <div className='Project'>

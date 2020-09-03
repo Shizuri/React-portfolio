@@ -1,9 +1,6 @@
 .About-me {
     color: var(--color-light);
     margin-top: 50px;
-}
-
-.About-me-container {
     display: flex;
     flex-direction: column;
     align-items: center;

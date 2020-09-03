@@ -3,8 +3,6 @@ import './Certificate.css'
 
 const Certificate = props => {
     const { certificateName, certificateImage, certificateLink, certificateDescription, courseLink } = props
-    // console.log('props: ', props)
-    // console.log('certificateLink: ', certificateLink)
 
     return (
         <div className='Certificate'>

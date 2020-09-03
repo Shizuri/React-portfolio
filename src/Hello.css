@@ -1,8 +1,5 @@
 .Hello {
     margin-top: 50px;
-}
-
-.Hello-container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -40,7 +37,7 @@
 }
 
 @media (max-width: 910px) {
-    .Hello-container {
+    .Hello {
         flex-direction: column-reverse;
     }
     .Hello-text {

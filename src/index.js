@@ -14,6 +14,7 @@ ReactDOM.render(
 		<ContextProvider>
 			<Router>
 				<App />
+				{/* Just adding the ScrollToTop component provides better user experience with client side routing */}
 				<ScrollToTop />
 			</Router>
 		</ContextProvider>
