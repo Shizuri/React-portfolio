@@ -15,7 +15,7 @@ const Certifications = props => {
 	}, [])
 
 	return (
-		<div className='Certifications'>
+		<article className='Certifications'>
 			<Certificate
 				certificateImage={coltSteeleReactBootcampImage}
 				certificateLink='https://www.udemy.com/certificate/UC-3bee9155-5ad1-4df0-9f53-f71e3ae9628e/'
@@ -64,7 +64,7 @@ const Certifications = props => {
 					Letter of recommendation from the company Sourcico.
 				</>}
 			/>
-		</div>
+		</article>
 	)
 }
 

@@ -5,14 +5,14 @@ const Project = props => {
     const { name, projectImage, projectWebSite, projectCodeRepoLink, projectDescription, codeTaskDescription, codeIcon } = props
 
     return (
-        <div className='Project'>
+        <article className='Project'>
             <a className='Project-site-link' href={projectWebSite} target='_blank' rel='noopener noreferrer'>
-                <div className='Project-left-box'>
+                <figure className='Project-left-box'>
                     <img className='Project-site-image' src={projectImage} alt={`${name} site`} />
-                    <div className='Project-name'>{name}</div>
-                </div>
+                    <figcaption className='Project-name'>{name}</figcaption>
+                </figure>
             </a>
-            <div className='Project-right-box'>
+            <section className='Project-right-box'>
                 <div className='Project-description'>{projectDescription}</div>
                 <div className='Project-code-box'>
                     <a className='Project-code-link' href={projectCodeRepoLink} target='_blank' rel='noopener noreferrer'>
@@ -20,8 +20,8 @@ const Project = props => {
                         <span>{codeTaskDescription}</span>
                     </a>
                 </div>
-            </div>
-        </div>
+            </section>
+        </article>
     )
 }
 

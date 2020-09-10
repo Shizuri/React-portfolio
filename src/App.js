@@ -50,51 +50,36 @@ const App = props => {
 				</nav>
 				<div className='App-menu-button' onClick={toggleMenu}>&#9776;</div>
 			</header>
-			<Route render={({ location }) => (
-				<TransitionGroup className='transition-group' >
-					<CSSTransition
-						key={location.key}
-						timeout={2100}
-						classNames='fade'
-					>
-						<Switch location={location}>
-							<Route exact path='/'>
-								<Hello />
-							</Route>
-							<Route exact path='/about-me'>
-								<AboutMe />
-							</Route>
-							<Route exact path='/projects'>
-								<Projects />
-							</Route>
-							<Route exact path='/certifications'>
-								<Certifications />
-							</Route>
-							<Route exact path='/contact-me'>
-								<ContactMe />
-							</Route>
-						</Switch>
-					</CSSTransition>
-				</TransitionGroup>
-			)} />
 
-			{/* <Switch>
-				<Route exact path='/'>
-					<Hello />
-				</Route>
-				<Route exact path='/about-me'>
-					<AboutMe />
-				</Route>
-				<Route exact path='/projects'>
-					<Projects />
-				</Route>
-				<Route exact path='/certifications'>
-					<Certifications />
-				</Route>
-				<Route exact path='/contact-me'>
-					<ContactMe />
-				</Route>
-			</Switch> */}
+			<main>
+				<Route render={({ location }) => (
+					<TransitionGroup className='transition-group' >
+						<CSSTransition
+							key={location.key}
+							timeout={2100}
+							classNames='fade'
+						>
+							<Switch location={location}>
+								<Route exact path='/'>
+									<Hello />
+								</Route>
+								<Route exact path='/about-me'>
+									<AboutMe />
+								</Route>
+								<Route exact path='/projects'>
+									<Projects />
+								</Route>
+								<Route exact path='/certifications'>
+									<Certifications />
+								</Route>
+								<Route exact path='/contact-me'>
+									<ContactMe />
+								</Route>
+							</Switch>
+						</CSSTransition>
+					</TransitionGroup>
+				)} />
+			</main>
 		</div>
 	)
 }
