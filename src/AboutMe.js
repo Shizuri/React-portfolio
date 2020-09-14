@@ -10,10 +10,30 @@ const AboutMe = props => {
 
 	return (
 		<article className='About-me'>
-			<h2 className='About-me-h2'>About Me</h2>
-			<p>Hi. I am a Software Engineer that focuses on Front-end web development. Most of my work is revolves around
-			creating responsive websites by using HTML, CSS and JavaScript and web apps by using React.
-				The best way to see what I do is to check out my <Link to='/projects' className='About-me-projects-link'>Projects</Link>.</p>
+			<h2 className='About-me-h2'>Skills</h2>
+			<p>Hi. I am a Software Engineer that focuses on Front-end web development.
+				<br />
+				 Most of my work revolves around
+			creating responsive websites by using 
+			<a className='About-me-link' href='https://developer.mozilla.org/en-US/docs/Web/HTML' target='_blank' rel='noopener noreferrer'> HTML</a>
+			, <a className='About-me-link' href='https://developer.mozilla.org/en-US/docs/Web/CSS' target='_blank' rel='noopener noreferrer'> CSS </a>
+			 and <a className='About-me-link' href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank' rel='noopener noreferrer'> JavaScript </a>
+			 and web apps by using <a className='About-me-link' href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'> React</a>.
+			I prefer to use modern React technologies like 
+			<a className='About-me-link' href='https://reactjs.org/docs/components-and-props.html' target='_blank' rel='noopener noreferrer'> Functional Components</a>,
+			<a className='About-me-link' href='https://reactjs.org/docs/hooks-intro.html' target='_blank' rel='noopener noreferrer'> Hooks </a>
+			and the <a className='About-me-link' href='https://reactjs.org/docs/context.html' target='_blank' rel='noopener noreferrer'> Context API </a>
+			but I am also proficient in the classic React ways of doing things by using 
+			<a className='About-me-link' href='https://reactjs.org/docs/components-and-props.html' target='_blank' rel='noopener noreferrer'> Class Components </a>
+			and <a className='About-me-link' href='https://redux.js.org/' target='_blank' rel='noopener noreferrer'> Redux </a>.
+			I find <a className='About-me-link' href='https://git-scm.com/' target='_blank' rel='noopener noreferrer'> Git </a>
+			and <a className='About-me-link' href='https://github.com/Shizuri' target='_blank' rel='noopener noreferrer'> GitHub </a>
+			to be essential tools in my everyday work.
+			<br />
+			I have also used many other programming languages, frameworks and IT technologies but those listed here are just the ones
+			that directly influence my everyday work as a Front-end developer.
+			<br />
+			The best way to see how I use my skills is to check out my <Link to='/projects' className='About-me-link'>Projects</Link>.</p>
 			<h2 className='About-me-h2'>Personality</h2>
 			<p>I am a very open, communicative and friendly person and I enjoy just such work
 			environments. I love working as part of a team and I value hard work and honesty. My

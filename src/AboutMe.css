@@ -15,14 +15,14 @@
     font-size: 2rem;
 }
 
-.About-me-projects-link {
+.About-me-link {
     text-decoration: none;
     color: var(--color-blue);
     opacity: 0.85;
     transition: all 0.3s;
 }
 
-.About-me-projects-link:hover {
+.About-me-link:hover {
     opacity: 1;
 }
 
