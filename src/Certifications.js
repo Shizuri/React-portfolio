@@ -28,7 +28,7 @@ const Certifications = props => {
 
 			<Certificate
 				certificateImage={bobZirollReactBootcampImage}
-				certificateLink='https://i.imgur.com/8uyQo2S.png'
+				certificateLink='https://scrimba.com/certificate/u47Z2qTW/greact'
 				certificateName='The React Bootcamp by Bob Ziroll'
 				certificateDescription={<>
 					An advanced React bootcamp focusing on new technologies and also Redux.
