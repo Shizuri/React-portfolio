@@ -37,6 +37,15 @@ const Certifications = props => {
 			/>
 
 			<Certificate
+				certificateImage={sourcicoLetterOfRecommendationImage}
+				certificateLink='https://i.imgur.com/7QdHvSg.jpg'
+				certificateName='Sourcico Internship'
+				certificateDescription={<>
+					Letter of recommendation from the company Sourcico.
+				</>}
+			/>
+
+			<Certificate
 				certificateImage={fCCResponsiveWebDesignImage}
 				certificateLink='https://www.freecodecamp.org/certification/shizuri/responsive-web-design'
 				certificateName='Responsive Web Design by Free Code Camp'
@@ -54,15 +63,6 @@ const Certifications = props => {
 					A detailed and extensive JavaScript course.
 				</>}
 				courseLink='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/'
-			/>
-
-			<Certificate
-				certificateImage={sourcicoLetterOfRecommendationImage}
-				certificateLink='https://i.imgur.com/7QdHvSg.jpg'
-				certificateName='Sourcico Internship'
-				certificateDescription={<>
-					Letter of recommendation from the company Sourcico.
-				</>}
 			/>
 		</article>
 	)
