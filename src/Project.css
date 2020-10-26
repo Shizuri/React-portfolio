@@ -21,10 +21,13 @@
     justify-content: space-between;
     opacity: 0.85;
     transition: all 0.3s;
+    /* This is a figure and it provides its own margins that must be altered */
+    margin: 0;
 }
 
 .Project-site-link {
     height: 100%;
+    width: 300px;
     text-decoration: none;
 }
 

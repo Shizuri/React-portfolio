@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './Projects.css'
 import Project from './Project'
 
+// Project images
 import bookJournalImage from './images/project-images/BookJournal.png'
 import reduxBookJournalImage from './images/project-images/ReduxBookJournal.png'
 import portfolioLogo from './images/project-images/Portfolio-logo.png'
@@ -10,6 +11,7 @@ import surveyFormImage from './images/project-images/SurveyForm.png'
 import productLandingPageImage from './images/project-images/ProductLandingPage.png'
 import technicalDocumentationPageImage from './images/project-images/TechnicalDocumentationPage.png'
 import fCCPersonalPortfolioImage from './images/project-images/FCCPersonalPortfolio.png'
+import mtgBrowserReactV2 from './images/project-images/MtgBrowserReactV2.png'
 
 const Projects = props => {
 	useEffect(() => {
@@ -59,6 +61,20 @@ const Projects = props => {
 					<em>Technology:</em> I developed my personal portfolio page as a React project with client side routing (SPA). Modern React technologies <strong>Functional Components, Hooks, React Router and React Transition Group</strong> were used in its development.
 					<br /><br />
 					<em>Description:</em> This is my personal portfolio page, the very site that you are looking at. I put a lot of time and effort into its design and every pixel was created, placed and styled by me. I create all of my sites to be responsive so make sure to also check out the site on your phone.
+				</>}
+				codeTaskDescription='Code Repository'
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+			/>
+			
+			<Project
+				name='MtG Card Browser'
+				projectImage={mtgBrowserReactV2}
+				projectWebSite='https://mtg-browser-v2.netlify.app/'
+				projectCodeRepoLink='https://github.com/Shizuri/entry_frontend_react_polar_v2'
+				projectDescription={<>
+					<em>Technology:</em> I developed the Magic the Gathering card browser website as a React project with client side routing (SPA). Modern React technologies <strong>Functional Components, Hooks, Context API and React multi select component</strong> were used in its development.
+					<br /><br />
+					<em>Description:</em> This web app welcomes a user that can browse, sort and filter 100 random Magic the Gathering cards provided from an external API.
 				</>}
 				codeTaskDescription='Code Repository'
 				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
