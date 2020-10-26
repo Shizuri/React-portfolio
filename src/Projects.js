@@ -12,6 +12,7 @@ import productLandingPageImage from './images/project-images/ProductLandingPage.
 import technicalDocumentationPageImage from './images/project-images/TechnicalDocumentationPage.png'
 import fCCPersonalPortfolioImage from './images/project-images/FCCPersonalPortfolio.png'
 import mtgBrowserReactV2 from './images/project-images/MtgBrowserReactV2.png'
+import mtgBrowserVanillaJS from './images/project-images/MtgBrowserVanillaJS.png'
 
 const Projects = props => {
 	useEffect(() => {
@@ -65,16 +66,34 @@ const Projects = props => {
 				codeTaskDescription='Code Repository'
 				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
 			/>
-			
+
 			<Project
-				name='MtG Card Browser'
+				name='MtG Browser'
 				projectImage={mtgBrowserReactV2}
 				projectWebSite='https://mtg-browser-v2.netlify.app/'
 				projectCodeRepoLink='https://github.com/Shizuri/entry_frontend_react_polar_v2'
 				projectDescription={<>
 					<em>Technology:</em> I developed the Magic the Gathering card browser website as a React project with client side routing (SPA). Modern React technologies <strong>Functional Components, Hooks, Context API and React multi select component</strong> were used in its development.
 					<br /><br />
-					<em>Description:</em> This web app welcomes a user that can browse, sort and filter 100 random Magic the Gathering cards provided from an external API.
+					<em>Description:</em> This web application welcomes a user that can browse, sort and filter 100 random Magic the Gathering cards provided from an external API.
+				</>}
+				codeTaskDescription='Code Repository'
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+			/>
+
+			<h2 className='Projects-h2'>Vanilla JavaScript projects</h2>
+			<h3 className='Projects-h3'>Responsive website created in just JavaScript, no frameworks</h3>
+			{/* Vanilla JavaScript from here */}
+			
+			<Project
+				name='Vanilla JS MtG Browser'
+				projectImage={mtgBrowserVanillaJS}
+				projectWebSite='https://mtg-browser-vanilla-js.netlify.app/'
+				projectCodeRepoLink='https://github.com/Shizuri/PolarCape_Entry_Frontend'
+				projectDescription={<>
+					<em>Technology:</em> This version the Magic the Gathering card browser website was developed by only using <strong>JavaScript</strong>. No frameworks were used in its creation.
+					<br /><br />
+					<em>Description:</em> This website welcomes a user that can browse, sort and filter 100 random Magic the Gathering cards provided from an external API.
 				</>}
 				codeTaskDescription='Code Repository'
 				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
