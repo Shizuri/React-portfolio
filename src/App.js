@@ -8,7 +8,7 @@ import Hello from './Hello'
 import Certifications from './Certifications'
 import ContactMe from './ContactMe'
 
-import logo from './images/Logo-round2.png'
+import logo from './images/Logo-clean-round.png'
 
 import { CSSTransition, TransitionGroup, } from 'react-transition-group'
 
@@ -18,7 +18,7 @@ const App = props => {
 
 	// Simple function to toggle the menu state
 	const toggleMenu = () => {
-		setMobileMenuIsActive(prevMobileMenuIsActive => prevMobileMenuIsActive === true ? false : true)
+		setMobileMenuIsActive(prevMobileMenuIsActive => prevMobileMenuIsActive !== true)
 	}
 
 	// Used just for the Logo since it's part of the navigation
