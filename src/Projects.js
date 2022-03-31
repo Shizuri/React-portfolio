@@ -5,7 +5,7 @@ import Project from './Project'
 // Project images
 import bookJournalImage from './images/project-images/BookJournal.png'
 import reduxBookJournalImage from './images/project-images/ReduxBookJournal.png'
-import portfolioLogo from './images/project-images/Portfolio-logo.png'
+import portfolioLogo from './images/Logo-clean-round.png'
 import drRobertLustigTributePageImage from './images/project-images/DrRobertLustigTributePage.png'
 import surveyFormImage from './images/project-images/SurveyForm.png'
 import productLandingPageImage from './images/project-images/ProductLandingPage.png'
@@ -36,7 +36,7 @@ const Projects = props => {
 					<em>Description:</em> The Book Journal application is a tool for cataloging your books. Once you find your books you can store them in your Journal. There you can note the start and finish date, rate the book and review your experience.
 				</>}
 				codeTaskDescription='Code Repository'
-				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'/>}
 			/>
 
 			<Project
@@ -50,7 +50,7 @@ const Projects = props => {
 					<em>Description:</em> The Book Journal application is a tool for cataloging your books. Once you find your books you can store them in your Journal. There you can note the start and finish date, rate the book, and review your experience.
 				</>}
 				codeTaskDescription='Code Repository'
-				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'/>}
 			/>
 
 			<Project
@@ -64,7 +64,7 @@ const Projects = props => {
 					<em>Description:</em> This is my personal portfolio page, the very site that you are looking at. I put a lot of time and effort into its design and every pixel was created, placed and styled by me. I create all of my sites to be responsive so make sure to also check out the site on your phone.
 				</>}
 				codeTaskDescription='Code Repository'
-				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'/>}
 			/>
 
 			<Project
@@ -78,7 +78,7 @@ const Projects = props => {
 					<em>Description:</em> This web application welcomes a user that can browse, sort and filter 100 random Magic the Gathering cards provided from an external API.
 				</>}
 				codeTaskDescription='Code Repository'
-				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'/>}
 			/>
 
 			<h2 className='Projects-h2'>Vanilla JavaScript projects</h2>
@@ -96,7 +96,7 @@ const Projects = props => {
 					<em>Description:</em> This website welcomes a user that can browse, sort and filter 100 random Magic the Gathering cards provided from an external API.
 				</>}
 				codeTaskDescription='Code Repository'
-				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-github fa-1x'/>}
 			/>
 
 			<h2 className='Projects-h2'>Free Code Camp projects</h2>
@@ -113,7 +113,7 @@ const Projects = props => {
 					<em>Description:</em> This FCC project requires the creation of a <strong>Tribute page</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
 				</>}
 				codeTaskDescription='Free Code Camp task'
-				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'/>}
 			/>
 
 			<Project
@@ -127,7 +127,7 @@ const Projects = props => {
 					<em>Description:</em> This FCC project requires the creation of a <strong>Survey Form</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
 				</>}
 				codeTaskDescription='Free Code Camp task'
-				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'/>}
 			/>
 
 			<Project
@@ -141,7 +141,7 @@ const Projects = props => {
 					<em>Description:</em> This FCC project requires the creation of a <strong>Product Landing Page</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
 				</>}
 				codeTaskDescription='Free Code Camp task'
-				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'/>}
 			/>
 
 			<Project
@@ -155,7 +155,7 @@ const Projects = props => {
 					<em>Description:</em> This FCC project requires the creation of a <strong>Technical Documentation Page</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
 				</>}
 				codeTaskDescription='Free Code Camp task'
-				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'/>}
 			/>
 
 			<Project
@@ -169,7 +169,7 @@ const Projects = props => {
 					<em>Description:</em> This FCC project requires the creation of a <strong>Personal Portfolio</strong> by following the outlined user stories. You can find more details about the requirements and the task on the link below.
 				</>}
 				codeTaskDescription='Free Code Camp task'
-				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'></i>}
+				codeIcon={<i className='Project-code-icon fab fa-free-code-camp'/>}
 			/>
 		</section>
 	)
