@@ -48,7 +48,7 @@ const App = props => {
 					<NavLink exact to='/certifications' activeClassName='App-nav-active' className='App-mobile-nav-link' onClick={turnOffMenu}>Certifications</NavLink>
 					<NavLink exact to='/contact-me' activeClassName='App-nav-active' className='App-mobile-nav-link' onClick={turnOffMenu}>Contact Me</NavLink>
 				</nav>
-				<div className='App-menu-button' onClick={toggleMenu}>&#9776;</div>
+				<div className='App-menu-button' onClick={toggleMenu}>&#8801;</div>
 			</header>
 
 			<main>

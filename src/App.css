@@ -26,7 +26,6 @@
   width: 100px;
   transition: all 0.3s;
   opacity: 0.85;
-  /*border-radius: 50%;*/
 }
 
 .App-logo:hover {
@@ -56,7 +55,7 @@
   display: none;
   cursor: pointer;
   margin-right: 15px;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: var(--color-blue);
   opacity: 0.85;
   transition: all 0.3s;
