@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
 import './AboutMe.css'
 
 const AboutMe = props => {
@@ -46,11 +45,13 @@ const AboutMe = props => {
 				Discount - Skopje. Later I got promoted to store manager. Once I decided to transition to software development I
 				started to
 				intensely work on my craft and applying for internship positions. As an intern in the
-				company Sourcico I gained knowledge and experience in the JavaEE world. Later I
-				received training as a full stack developer in the company Sorsix. Since November 2020 I have worked
-				professionally
-				as a Front-end developer at
-				<a className='About-me-link' href='https://metergram.com/' target='_blank' rel='noopener noreferrer'> Metergram</a>.
+				company <a className='About-me-link' href='https://sourcico.com/' target='_blank' rel='noopener noreferrer'>Sourcico </a>
+					I gained knowledge and experience in the JavaEE world. Later I
+					received training as a full stack developer in the company <a className='About-me-link' href='https://www.sorsix.com/' target='_blank' rel='noopener noreferrer'>Sorsix</a>.
+					Since November 2020 I have worked
+					professionally
+					as a Front-end developer at
+					<a className='About-me-link' href='https://metergram.com/' target='_blank' rel='noopener noreferrer'> Metergram</a>.
 			</p>
 			{/* <h2 className='About-me-h2'>Additional Knowledge</h2>
 				<p>From my first encounter with computers I have been fascinated by them. I’ve come in
