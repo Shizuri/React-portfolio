@@ -22,7 +22,16 @@ const Projects = props => {
 
 	return (
 		<section className='Projects'>
+			<h1 className='Projects-h1'>
+				<span className='Projects-bold'>DISCLAIMER</span>
+				<br/>
+				These projects were created before I was a junior developer and do not represent my current skill set.
+				<br/>
+				All of my work since 2020 is of much higher quality. Unfortunately, it is covered by <span className='Projects-bold'>NDA</span>s and can not be showcased.
+			</h1>
+
 			<h2 className='Projects-h2'>React projects</h2>
+
 			<h3 className='Projects-h3'>Responsive React projects, designed and developed by me</h3>
 			{/* React Projects from here */}
 			<Project
@@ -84,7 +93,7 @@ const Projects = props => {
 			<h2 className='Projects-h2'>Vanilla JavaScript projects</h2>
 			<h3 className='Projects-h3'>Responsive website created in just JavaScript, no frameworks</h3>
 			{/* Vanilla JavaScript from here */}
-			
+
 			<Project
 				name='Vanilla JS MtG Browser'
 				projectImage={mtgBrowserVanillaJS}

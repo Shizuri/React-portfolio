@@ -10,13 +10,23 @@
     left: 15vw;
 }
 
+.Projects-h1 {
+    color: #c70e0e;
+    font-size: 2.3rem;
+    text-wrap: pretty;
+    font-weight: 400;
+}
+
+.Projects-bold {
+    font-weight: 600;
+}
+
 .Projects-h2 {
     font-size: 2rem;
 }
 
 .Projects-h3 {
     font-size: 1.3rem;
-    font-weight: 400;
     margin-bottom: 50px;
 }
 

@@ -50,6 +50,7 @@
     opacity: 0.85;
     transition: all 0.3s;
     font-size: 1.5rem;
+    font-weight: 600;
     color: var(--color-blue);
 }
 
@@ -59,7 +60,6 @@
 
 .Certificate-description {
     font-size: 1.1rem;
-    font-weight: 300;
 }
 
 .Certificate-site-link {
@@ -67,7 +67,6 @@
     transition: all 0.3s;
     font-size: 1.5rem;
     color: var(--color-blue);
-    transition: all 0.3s;
     text-decoration: none;
 }
 
@@ -82,7 +81,7 @@
         width: 95%;
     }
     .Certificate-right-box {
-        margin-left: 0px;
+        margin-left: 0;
     }
     .Certificate-description {
         margin: 20px 0;
